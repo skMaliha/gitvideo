@@ -1,0 +1,109 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: #24292e;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.nav-icons span {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Layout Container */
+.container {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background: #f6f8fa;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.repo-search {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.new-repo {
+  background: #2ea44f;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Dashboard */
+.dashboard {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.tutorials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+/* Right Sidebar */
+.right-sidebar {
+  width: 250px;
+  background: #f6f8fa;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+}
+
+.right-sidebar ul {
+  list-style: none;
+}
+
+.right-sidebar li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
